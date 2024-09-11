@@ -1,5 +1,5 @@
 // Selector to retrieve books from the state
-export const bookSelector = state => state.books
+export const bookSelector = state => state.books.books
 
 // Selector to retrieve book title and ISBN from the state
 export const bookTitleIsbnSelector = state => state.books.books.map(book => ({
