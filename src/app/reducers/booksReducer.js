@@ -5,6 +5,7 @@ const initialState = {
     err: ""
 }
 
+// dedicated book reducer to handle only book state changes
 const booksReducer = (state = initialState, action) => {
     switch (action.type) {
         case 'FETCH_BOOKS_REQUESTED':
