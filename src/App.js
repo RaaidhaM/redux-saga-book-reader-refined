@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import FetchBooksContainer from './app/containers/fetchBooksContainer'
+import DisplayBooksContainer from './app/containers/displayBooksContainer'
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <div>
+      <h1>Redux-Saga Book Reader</h1>
+      {/* Calling the containers to render UI */}
+      <FetchBooksContainer />
+      <DisplayBooksContainer />
+ </div>
+  )
 }
 
-export default App;
+export default App
