@@ -1,5 +1,5 @@
 # Redux-saga Refined
-This is a refined solution of the basic implementation https://www.google.com/
+This is a refined solution of the basic implementation https://github.com/RaaidhaM/redux-saga-book-reader
 
 
 # project-structure
